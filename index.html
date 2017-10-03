@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Loops</h2>
+
+<p id="demo"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+<p id="democar"></p>
+
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var i, len, text;
+for (i = 0, len = cars.length, text = ""; i < len; i++) {
+    text += cars[i] + "<br>";
+}
+
+document.getElementById("democar").innerHTML = text;
+</script>
+
+<script>
+var cars2 = ["TBMW", "Volvo", "Saab", "Ford"];
+
+var i = 0;
+var len = cars2.length;
+var text = "";
+
+for (; i < len; ) {
+    text += cars2[i] + "<br>";
+    i++;
+}
+document.getElementById("democar2").innerHTML = text;
+</script>
+
+</body>
+</html>
