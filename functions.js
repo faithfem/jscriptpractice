@@ -16,11 +16,11 @@ console.log(perimeter);
 
 // sometimes you can have the function inside a variable, so when you call the variable, it runs the function
 
-var area2 = function(w, l){      //function declared by variable
+var area = function(w, l){      //function declared by variable
     return w * l;
 };
 
-var size2 = area2(7,4);         
-console.log(size2);
+var size = area(7,4);         
+console.log(size);
 
 
